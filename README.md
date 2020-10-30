@@ -1,4 +1,5 @@
 # generate-contract-interface
+
 [![npm version](https://img.shields.io/npm/v/generate-contract-interface.svg)](https://npmjs.org/package/generate-contract-interface)
 
 Generates an abstract contract in Solidity from a given contract.
@@ -50,11 +51,10 @@ contract IA {
 }
 ```
 
-
 ## API Usage
 
 ```js
-const generateInterface = require('generate-contract-interface')
+const generateInterface = require("generate-contract-interface");
 
 const src = `contract MyContract {
   function foo(uint a) constant public returns(uint) {
@@ -63,9 +63,9 @@ const src = `contract MyContract {
 
   function bar(uint a, uint b) {
   }
-}`
+}`;
 
-console.log(generateInterface(src))
+console.log(generateInterface(src));
 
 /* Output:
 
@@ -74,7 +74,6 @@ contract IMyContract {
   function bar(uint a, uint b);
 }
 */
-
 ```
 
 ## Issues

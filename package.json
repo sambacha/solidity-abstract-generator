@@ -1,4 +1,3 @@
-
 {
   "name": "solidity-abstract-generator",
   "version": "0.1.13",
@@ -7,32 +6,32 @@
   "repository": "https://github.com/sambacha/solidity-abstract-generator",
   "author": {
     "name": "Raine Revere",
-  "bin": {
-    "generate-contract-interface": "bin.js"
-  },
-  "engines": {
-    "node": ">=0.12.0"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "keywords": [
-    "ethereum",
-    "solidity",
-    "contract",
-    "interface"
-  ],
-  "devDependencies": {
-    "chai": "^2.1.2",
-    "chai-as-promised": "^6.0.0",
-    "mocha": "*",
-    "spawn-please": "^0.2.0"
-  },
-  "dependencies": {
-    "@solidity-parser/parser": "^0.8.1",
-    "get-stdin-promise": "^0.1.1",
-    "lodash.flow": "^3.5.0",
-    "yargs": "^6.4.0"
+    "bin": {
+      "generate-contract-interface": "bin.js"
+    },
+    "engines": {
+      "node": ">=0.12.0"
+    },
+    "scripts": {
+      "test": "mocha"
+    },
+    "keywords": [
+      "ethereum",
+      "solidity",
+      "contract",
+      "interface"
+    ],
+    "devDependencies": {
+      "chai": "^2.1.2",
+      "chai-as-promised": "^6.0.0",
+      "mocha": "*",
+      "spawn-please": "^0.2.0"
+    },
+    "dependencies": {
+      "@solidity-parser/parser": "^0.8.1",
+      "get-stdin-promise": "^0.1.1",
+      "lodash.flow": "^3.5.0",
+      "yargs": "^6.4.0"
+    }
   }
-}
 }
