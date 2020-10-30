@@ -4,15 +4,11 @@
   "description": "Generates an abstract contract in Solidity from a given contract.",
   "license": "ISC",
   "repository": "https://github.com/sambacha/solidity-abstract-generator",
-  "author": {
-    "name": "Raine Revere",
     "bin": {
       "generate-contract-interface": "bin.js"
     },
-    "engines": {
-      "node": ">=0.12.0"
-    },
     "scripts": {
+       "cli": "bin.js",
       "test": "mocha"
     },
     "keywords": [
