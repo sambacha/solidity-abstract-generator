@@ -4,30 +4,29 @@
   "description": "Generates an abstract contract in Solidity from a given contract.",
   "license": "ISC",
   "repository": "https://github.com/sambacha/solidity-abstract-generator",
-    "bin": {
-      "generate-contract-interface": "bin.js"
-    },
-    "scripts": {
-       "cli": "bin.js",
-      "test": "mocha"
-    },
-    "keywords": [
-      "ethereum",
-      "solidity",
-      "contract",
-      "interface"
-    ],
-    "devDependencies": {
-      "chai": "^2.1.2",
-      "chai-as-promised": "^6.0.0",
-      "mocha": "*",
-      "spawn-please": "^0.2.0"
-    },
-    "dependencies": {
-      "@solidity-parser/parser": "^0.8.1",
-      "get-stdin-promise": "^0.1.1",
-      "lodash.flow": "^3.5.0",
-      "yargs": "^6.4.0"
-    }
+  "bin": {
+    "generate-contract-interface": "bin.js"
+  },
+  "scripts": {
+    "cli": "bin.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "ethereum",
+    "solidity",
+    "contract",
+    "interface"
+  ],
+  "devDependencies": {
+    "chai": "^2.1.2",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "*",
+    "spawn-please": "^0.2.0"
+  },
+  "dependencies": {
+    "@solidity-parser/parser": "^0.8.1",
+    "get-stdin-promise": "^0.1.1",
+    "lodash.flow": "^3.5.0",
+    "yargs": "^6.4.0"
   }
 }
