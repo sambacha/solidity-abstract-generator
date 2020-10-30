@@ -1,6 +1,6 @@
 {
   "name": "solidity-abstract-generator",
-  "version": "0.1.13",
+  "version": "0.2.0",
   "description": "Generates an abstract contract in Solidity from a given contract.",
   "license": "ISC",
   "repository": "https://github.com/sambacha/solidity-abstract-generator",
