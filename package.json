@@ -1,14 +1,12 @@
+
 {
-  "name": "generate-contract-interface",
+  "name": "solidity-abstract-generator",
   "version": "0.1.13",
   "description": "Generates an abstract contract in Solidity from a given contract.",
   "license": "ISC",
-  "repository": "https://github.com/raineorshine/generate-contract-interface",
+  "repository": "https://github.com/sambacha/solidity-abstract-generator",
   "author": {
     "name": "Raine Revere",
-    "email": "raineorshine@gmail.com",
-    "url": "https://github.com/raineorshine"
-  },
   "bin": {
     "generate-contract-interface": "bin.js"
   },
@@ -25,15 +23,16 @@
     "interface"
   ],
   "devDependencies": {
-    "chai": "*",
+    "chai": "^2.1.2",
     "chai-as-promised": "^6.0.0",
     "mocha": "*",
     "spawn-please": "^0.2.0"
   },
   "dependencies": {
+    "@solidity-parser/parser": "^0.8.1",
     "get-stdin-promise": "^0.1.1",
     "lodash.flow": "^3.5.0",
-    "solidity-parser": "git://github.com/raineorshine/solidity-parser.git#326da052567245c9d9a0ba941bd9923aa89cda84",
     "yargs": "^6.4.0"
   }
+}
 }

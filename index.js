@@ -1,4 +1,4 @@
-const SolidityParser = require('solidity-parser')
+const SolidityParser = require('@solidity-parser/parser')
 const flow = require('lodash.flow')
 const path = require('path')
 const fs = require('fs')
