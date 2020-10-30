@@ -1,8 +1,7 @@
 # generate-contract-interface
 
-[![npm version](https://img.shields.io/npm/v/generate-contract-interface.svg)](https://npmjs.org/package/generate-contract-interface)
 
-Generates an abstract contract in Solidity from a given contract.
+> Generates an abstract contract in Solidity from a given contract.
 
 ## Install
 
@@ -76,11 +75,9 @@ contract IMyContract {
 */
 ```
 
-## Issues
 
-Before reporting, please makes sure your source is parseable via [solidity-parser](https://github.com/ConsenSys/solidity-parser).
 
-### Contributing Opportunities
+## Roadmap
 
 The following are known issues and great opportunities to make an open source contribution:
 
@@ -90,4 +87,5 @@ The following are known issues and great opportunities to make an open source co
 
 ## License
 
-ISC © [Raine Revere](https://github.com/raineorshine)
+Original Work:
+ISC  [Raine Revere](https://github.com/raineorshine)
